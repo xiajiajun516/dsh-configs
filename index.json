@@ -5,13 +5,20 @@
     {
       "id": "config-7fe8964d",
       "name": "测试市场配置",
-      "version": "1.0.0",
       "description": "用于测试的配置,不要下载",
       "author": "xiajiajun516",
+      "version": "1.0.0",
       "updatedAt": "2026-08-20T13:30:01.354Z",
       "categories": [
         "测试"
       ]
+    },
+    {
+      "id": "dsh-config-2026-08-20-eb2c0c",
+      "name": "dsh-config-2026-08-20-eb2c0c",
+      "version": "1.0.0",
+      "author": "xiajiajun516",
+      "updatedAt": "2026-08-20T14:47:00.066Z"
     }
   ]
 }

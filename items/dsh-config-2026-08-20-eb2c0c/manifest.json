@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dsh-config-2026-08-20-eb2c0c",
+  "name": "dsh-config-2026-08-20-eb2c0c",
+  "version": "1.0.0",
+  "author": "xiajiajun516",
+  "updatedAt": "2026-08-20T14:47:00.066Z",
+  "sections": [
+    "settings",
+    "plugins"
+  ],
+  "provenance": {
+    "source": "https://github.com/xiajiajun516/dsh-configs"
+  },
+  "checksums": {
+    "zip": "7c449c99a08cb830d655a264b9cc838d4c811e74b6763331dfa663bc08abde34"
+  }
+}
