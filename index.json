@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "name": "我的配置仓库",
+  "items": [
+    {
+      "id": "config-7fe8964d",
+      "name": "测试市场配置",
+      "version": "1.0.0",
+      "description": "用于测试的配置,不要下载",
+      "author": "xiajiajun516",
+      "updatedAt": "2026-08-20T13:30:01.354Z",
+      "categories": [
+        "测试"
+      ]
+    }
+  ]
+}

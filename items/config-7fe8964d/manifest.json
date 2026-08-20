@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "config-7fe8964d",
+  "name": "测试市场配置",
+  "version": "1.0.0",
+  "description": "用于测试的配置,不要下载",
+  "author": "xiajiajun516",
+  "updatedAt": "2026-08-20T13:30:01.354Z",
+  "categories": [
+    "测试"
+  ],
+  "sections": [
+    "settings",
+    "plugins"
+  ],
+  "provenance": {
+    "source": "https://github.com/xiajiajun516/dsh-configs"
+  },
+  "checksums": {
+    "zip": "7c449c99a08cb830d655a264b9cc838d4c811e74b6763331dfa663bc08abde34"
+  }
+}
