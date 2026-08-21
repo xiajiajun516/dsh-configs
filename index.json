@@ -1,5 +1,13 @@
 {
   "schemaVersion": 1,
   "name": "我的配置仓库",
-  "items": []
+  "items": [
+    {
+      "id": "dsh-config-2026-08-20-eb2c0c",
+      "name": "dsh-config-2026-08-20-eb2c0c",
+      "version": "1.0.0",
+      "author": "xiajiajun516",
+      "updatedAt": "2026-08-21T11:44:26.686Z"
+    }
+  ]
 }
