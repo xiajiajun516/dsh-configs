@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "providers": {
+    "llm-deepseek": {
+      "route": "llm-deepseek",
+      "namespace": "llm-deepseek",
+      "revision": 0,
+      "secrets": [],
+      "apiKeyEnv": "DEEPSEEK_API_KEY",
+      "maxTokens": 256000,
+      "defaultContextWindow": 1000000,
+      "models": [
+        {
+          "id": "deepseek-flash",
+          "name": "DeepSeek-V41-Flash",
+          "contextWindow": 1000000,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "imagePixelBudget": 640000,
+          "imageMaxBytes": 1048576,
+          "systemPromptUpdate": "in-history"
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "name": "DeepSeek-V4-Flash",
+          "description": "Fast, efficient, and economical; suited to focused, routine, or parallel tasks.",
+          "contextWindow": 1000000,
+          "inputModalities": [
+            "text"
+          ]
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "name": "DeepSeek-V4-Pro",
+          "description": "Stronger agentic coding, knowledge, and difficult reasoning; suited to complex or quality-critical tasks at higher cost.",
+          "contextWindow": 1000000,
+          "inputModalities": [
+            "text"
+          ]
+        },
+        {
+          "id": "deepseek-v4-flash-vision-exp",
+          "name": "DeepSeek-V4-Flash-Vision-Exp",
+          "contextWindow": 1000000,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "imagePixelBudget": 640000,
+          "imageMaxBytes": 1048576
+        }
+      ],
+      "streamIdleTimeoutMs": 300000,
+      "maxRequestFilesBytes": 134217728,
+      "maxInlineRequestImageBytes": 20971520,
+      "maxImagesPerRequest": 600,
+      "imageOffloadByteQuantum": 67108864,
+      "inlineImageOffloadByteQuantum": 10485760,
+      "imageOffloadCountQuantum": 20,
+      "filesApiTimeoutMs": 60000,
+      "fileExpiresAfterSeconds": 604800,
+      "fileRefreshMarginSeconds": 3600,
+      "fileQuotaCleanupBatch": 100,
+      "raw": {
+        "apiKeyEnv": "DEEPSEEK_API_KEY",
+        "maxTokens": 256000,
+        "defaultContextWindow": 1000000,
+        "models": [
+          {
+            "id": "deepseek-flash",
+            "name": "DeepSeek-V41-Flash",
+            "contextWindow": 1000000,
+            "inputModalities": [
+              "text",
+              "image"
+            ],
+            "imagePixelBudget": 640000,
+            "imageMaxBytes": 1048576,
+            "systemPromptUpdate": "in-history"
+          },
+          {
+            "id": "deepseek-v4-flash",
+            "name": "DeepSeek-V4-Flash",
+            "description": "Fast, efficient, and economical; suited to focused, routine, or parallel tasks.",
+            "contextWindow": 1000000,
+            "inputModalities": [
+              "text"
+            ]
+          },
+          {
+            "id": "deepseek-v4-pro",
+            "name": "DeepSeek-V4-Pro",
+            "description": "Stronger agentic coding, knowledge, and difficult reasoning; suited to complex or quality-critical tasks at higher cost.",
+            "contextWindow": 1000000,
+            "inputModalities": [
+              "text"
+            ]
+          },
+          {
+            "id": "deepseek-v4-flash-vision-exp",
+            "name": "DeepSeek-V4-Flash-Vision-Exp",
+            "contextWindow": 1000000,
+            "inputModalities": [
+              "text",
+              "image"
+            ],
+            "imagePixelBudget": 640000,
+            "imageMaxBytes": 1048576
+          }
+        ],
+        "streamIdleTimeoutMs": 300000,
+        "maxRequestFilesBytes": 134217728,
+        "maxInlineRequestImageBytes": 20971520,
+        "maxImagesPerRequest": 600,
+        "imageOffloadByteQuantum": 67108864,
+        "inlineImageOffloadByteQuantum": 10485760,
+        "imageOffloadCountQuantum": 20,
+        "filesApiTimeoutMs": 60000,
+        "fileExpiresAfterSeconds": 604800,
+        "fileRefreshMarginSeconds": 3600,
+        "fileQuotaCleanupBatch": 100
+      }
+    },
+    "a6api": {
+      "route": "a6api",
+      "namespace": "llm-pi-ai",
+      "revision": 0,
+      "secrets": [],
+      "apiKeyEnv": "A6API_API_KEY",
+      "displayName": "A6api",
+      "api": "openai-completions",
+      "baseURL": "https://api.a6api.com/v1",
+      "models": [
+        {
+          "id": "deepseek-v4.1-flash-expires-on-0910",
+          "name": "DeepSeek Flash",
+          "contextWindow": 1000000,
+          "maxTokens": 256000,
+          "input": [
+            "text",
+            "image"
+          ],
+          "compat": {
+            "chatTemplateKwargs": {},
+            "chatTemplateArgs": {}
+          }
+        }
+      ],
+      "modelOverrides": {},
+      "compat": {
+        "chatTemplateKwargs": {},
+        "chatTemplateArgs": {}
+      },
+      "defaultContextWindow": 262144,
+      "defaultMaxTokens": 32768,
+      "defaultInput": [
+        "text"
+      ],
+      "headers": {},
+      "thinkingBudgets": {},
+      "streamIdleTimeoutMs": 300000,
+      "maxRequestImageBytes": 20971520,
+      "requestImagePixelBudget": 4194304,
+      "requestImageMaxBytes": 1048576,
+      "raw": {
+        "providers": {
+          "a6api": {
+            "apiKeyEnv": "A6API_API_KEY",
+            "displayName": "A6api",
+            "api": "openai-completions",
+            "baseURL": "https://api.a6api.com/v1",
+            "models": [
+              {
+                "id": "deepseek-v4.1-flash-expires-on-0910",
+                "name": "DeepSeek Flash",
+                "contextWindow": 1000000,
+                "maxTokens": 256000,
+                "input": [
+                  "text",
+                  "image"
+                ],
+                "compat": {
+                  "chatTemplateKwargs": {},
+                  "chatTemplateArgs": {}
+                }
+              }
+            ],
+            "modelOverrides": {},
+            "compat": {
+              "chatTemplateKwargs": {},
+              "chatTemplateArgs": {}
+            },
+            "defaultContextWindow": 262144,
+            "defaultMaxTokens": 32768,
+            "defaultInput": [
+              "text"
+            ],
+            "headers": {},
+            "thinkingBudgets": {},
+            "streamIdleTimeoutMs": 300000,
+            "maxRequestImageBytes": 20971520,
+            "requestImagePixelBudget": 4194304,
+            "requestImageMaxBytes": 1048576
+          },
+          "opencode-go": {
+            "apiKeyEnv": "OPENCODE_GO_API_KEY",
+            "models": [
+              {
+                "id": "deepseek-v4-flash-vision-exp",
+                "name": "DeepSeek V4 Flash Vision Exp",
+                "contextWindow": 1000000,
+                "maxTokens": 384000,
+                "input": [],
+                "compat": {
+                  "chatTemplateKwargs": {},
+                  "chatTemplateArgs": {}
+                }
+              }
+            ],
+            "modelOverrides": {},
+            "compat": {
+              "chatTemplateKwargs": {},
+              "chatTemplateArgs": {}
+            },
+            "defaultContextWindow": 262144,
+            "defaultMaxTokens": 32768,
+            "defaultInput": [
+              "text"
+            ],
+            "headers": {},
+            "thinkingBudgets": {},
+            "streamIdleTimeoutMs": 300000,
+            "maxRequestImageBytes": 20971520,
+            "requestImagePixelBudget": 4194304,
+            "requestImageMaxBytes": 1048576
+          }
+        }
+      }
+    },
+    "opencode-go": {
+      "route": "opencode-go",
+      "namespace": "llm-pi-ai",
+      "revision": 0,
+      "secrets": [],
+      "apiKeyEnv": "OPENCODE_GO_API_KEY",
+      "models": [
+        {
+          "id": "deepseek-v4-flash-vision-exp",
+          "name": "DeepSeek V4 Flash Vision Exp",
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "input": [],
+          "compat": {
+            "chatTemplateKwargs": {},
+            "chatTemplateArgs": {}
+          }
+        }
+      ],
+      "modelOverrides": {},
+      "compat": {
+        "chatTemplateKwargs": {},
+        "chatTemplateArgs": {}
+      },
+      "defaultContextWindow": 262144,
+      "defaultMaxTokens": 32768,
+      "defaultInput": [
+        "text"
+      ],
+      "headers": {},
+      "thinkingBudgets": {},
+      "streamIdleTimeoutMs": 300000,
+      "maxRequestImageBytes": 20971520,
+      "requestImagePixelBudget": 4194304,
+      "requestImageMaxBytes": 1048576,
+      "raw": {
+        "providers": {
+          "a6api": {
+            "apiKeyEnv": "A6API_API_KEY",
+            "displayName": "A6api",
+            "api": "openai-completions",
+            "baseURL": "https://api.a6api.com/v1",
+            "models": [
+              {
+                "id": "deepseek-v4.1-flash-expires-on-0910",
+                "name": "DeepSeek Flash",
+                "contextWindow": 1000000,
+                "maxTokens": 256000,
+                "input": [
+                  "text",
+                  "image"
+                ],
+                "compat": {
+                  "chatTemplateKwargs": {},
+                  "chatTemplateArgs": {}
+                }
+              }
+            ],
+            "modelOverrides": {},
+            "compat": {
+              "chatTemplateKwargs": {},
+              "chatTemplateArgs": {}
+            },
+            "defaultContextWindow": 262144,
+            "defaultMaxTokens": 32768,
+            "defaultInput": [
+              "text"
+            ],
+            "headers": {},
+            "thinkingBudgets": {},
+            "streamIdleTimeoutMs": 300000,
+            "maxRequestImageBytes": 20971520,
+            "requestImagePixelBudget": 4194304,
+            "requestImageMaxBytes": 1048576
+          },
+          "opencode-go": {
+            "apiKeyEnv": "OPENCODE_GO_API_KEY",
+            "models": [
+              {
+                "id": "deepseek-v4-flash-vision-exp",
+                "name": "DeepSeek V4 Flash Vision Exp",
+                "contextWindow": 1000000,
+                "maxTokens": 384000,
+                "input": [],
+                "compat": {
+                  "chatTemplateKwargs": {},
+                  "chatTemplateArgs": {}
+                }
+              }
+            ],
+            "modelOverrides": {},
+            "compat": {
+              "chatTemplateKwargs": {},
+              "chatTemplateArgs": {}
+            },
+            "defaultContextWindow": 262144,
+            "defaultMaxTokens": 32768,
+            "defaultInput": [
+              "text"
+            ],
+            "headers": {},
+            "thinkingBudgets": {},
+            "streamIdleTimeoutMs": 300000,
+            "maxRequestImageBytes": 20971520,
+            "requestImagePixelBudget": 4194304,
+            "requestImageMaxBytes": 1048576
+          }
+        }
+      }
+    }
+  }
+}

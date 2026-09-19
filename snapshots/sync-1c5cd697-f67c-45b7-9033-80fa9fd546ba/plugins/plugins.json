@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "name": "@anysearch/anysearch-dsh",
+      "version": "0.1.5",
+      "spec": "0.1.5",
+      "isBundle": true,
+      "inBundles": [
+        "@anysearch/anysearch-dsh"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@changfenhuang/dsh-genui",
+      "version": "0.11.0",
+      "spec": "^0.11.0",
+      "isBundle": true,
+      "inBundles": [
+        "@changfenhuang/dsh-genui"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@linxin666/dsh-client-ui-skill-explorer",
+      "version": "0.3.23",
+      "spec": "^0.3.23",
+      "isBundle": true,
+      "inBundles": [
+        "@linxin666/dsh-client-ui-skill-explorer"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.20",
+      "spec": "^0.1.20",
+      "isBundle": true,
+      "inBundles": [
+        "@nanmicoder/dsh-agent-teams"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@wxg-prc-cpg/browser-skill-dsh-plugin",
+      "version": "0.3.0",
+      "spec": "^0.3.0",
+      "isBundle": true,
+      "inBundles": [
+        "@wxg-prc-cpg/browser-skill-dsh-plugin"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "version": "0.19.1",
+      "spec": "^0.19.1",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-better-sidebar"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-mnemon",
+      "version": "0.5.12",
+      "spec": "^0.5.12",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-mnemon"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-tool-ast-grep",
+      "version": "0.1.1",
+      "spec": "^0.1.1",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-tool-ast-grep"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dshmarket",
+      "version": "1.49.0",
+      "spec": "^1.49.0",
+      "isBundle": true,
+      "inBundles": [
+        "dshmarket"
+      ],
+      "enabled": true
+    }
+  ],
+  "patch": [
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-dragon-heir",
+      "raw": {
+        "id": "ui-skin-dragon-heir",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-miku",
+      "raw": {
+        "id": "ui-skin-miku",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-minecraft",
+      "raw": {
+        "id": "ui-skin-minecraft",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-qq98",
+      "raw": {
+        "id": "ui-skin-qq98",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-ths",
+      "raw": {
+        "id": "ui-skin-ths",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-trading",
+      "raw": {
+        "id": "ui-skin-trading",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-whale-song",
+      "raw": {
+        "id": "ui-skin-whale-song",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-xp",
+      "raw": {
+        "id": "ui-skin-xp",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-harbor",
+      "raw": {
+        "id": "ui-skin-harbor",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-blue-fantasy",
+      "raw": {
+        "id": "ui-skin-blue-fantasy",
+        "name": "@linxin666/dsh-client-ui-skin-blue-fantasy"
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "pm-dsh-settings-organizer",
+      "raw": {
+        "id": "pm-dsh-settings-organizer",
+        "name": "dsh-settings-organizer"
+      }
+    }
+  ],
+  "pnpmWorkspace": "minimumReleaseAge: 0\npackages:\n  - .\n\nnodeLinker: hoisted\nautoInstallPeers: false\nminimumReleaseAgeExclude:\n  - dsh-better-sidebar\n  - '@nanmicoder/dsh-agent-teams@0.1.1'\n  - '@linxin666/dsh-client-ui-skin-center@0.1.12'\n  - '@linxin666/dsh-skins@0.1.12'\n  - '@linxin666/dsh-pet@0.1.12'\n  - '@linxin666/dsh-client-ui-aionui-panel@0.1.12'\n  - '@linxin666/dsh-client-ui-git-graph@0.1.12'\n  - '@linxin666/dsh-client-ui-task-board@0.1.12'\n  - '@linxin666/dsh-client-ui-web-ui-settings@0.1.12'\n  - '@linxin666/dsh-live-stats@0.1.12'\n  - '@linxin666/dsh-remote-web-ui@0.1.12'\n  - '@linxin666/dsh-ssh@0.1.12'\n  - '@linxin666/dsh-web-ui-all@0.1.12'\n  - dshmarket@1.0.3\n  - dsh-find-plugin@0.3.6\n  - '@liustack/modlens'\n  - dsh-config-manager\n\nallowBuilds:\n  cloudflared: true\n  cpu-features: true\n  node-pty: true\n  protobufjs: true\n  ssh2: true\n\r\n"
+}
