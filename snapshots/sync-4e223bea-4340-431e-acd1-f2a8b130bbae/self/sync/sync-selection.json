@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "channels": {
+    "git": {
+      "mode": "default",
+      "sections": [],
+      "encrypt": false,
+      "includeSecrets": false
+    },
+    "webdav": {
+      "mode": "default",
+      "sections": [],
+      "encrypt": false,
+      "includeSecrets": false
+    }
+  }
+}
