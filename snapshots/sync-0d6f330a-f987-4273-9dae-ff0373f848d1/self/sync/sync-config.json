@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 3,
+  "transport": "git",
+  "git": {
+    "repoUrl": "https://github.com/xiajiajun516/dsh-configs.git"
+  },
+  "webdav": {
+    "url": "https://dav.jianguoyun.com/dav/",
+    "username": "xiajiajun2008516@gmail.com"
+  }
+}
