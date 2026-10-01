@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "interval": "24h",
+  "startupMinIntervalMs": 3600000,
+  "consecutiveFailures": 0,
+  "lastRunAt": "2026-10-01T20:36:50.057Z",
+  "lastRunStatus": "success"
+}
