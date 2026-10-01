@@ -1,0 +1,34 @@
+{
+  "id": "sync-17a0387b-5b3d-4eb1-9961-75f7758992e4",
+  "createdAt": "2026-10-01T21:02:22.428Z",
+  "manifest": {
+    "schemaVersion": 1,
+    "dshVersion": "0.2.0-rc.2",
+    "platform": "win32",
+    "sectionIds": [
+      "settings",
+      "ui",
+      "providers",
+      "plugins",
+      "prompts",
+      "skills",
+      "agentPresets",
+      "agentInstructions",
+      "self"
+    ],
+    "containsSecrets": false,
+    "transport": "git",
+    "sourceHome": "C:\\Users\\yzbtdmz1\\.dsh"
+  },
+  "sectionHashes": {
+    "settings": "d005b2cb0586774ca24d79ca7b6125b8323cf199c9d04e7a6c8ad7a4833c1430",
+    "ui": "80978e7be56d94ff304f33196edab63d0a88159963ec4e66165754366dafa856",
+    "providers": "5ca707a72de02e18624a473021a183d24911d37c4c3e8c1a79238dd4dd4734bd",
+    "plugins": "5c853bbf18389e967db550ce2a18d0c0fc55de0df2bd77751da4a4e037d5a765",
+    "prompts": "23d05fd89e9e61985416d8fb3dfc30e5aae4298aa4f684f2a0391b49d70e8cfd",
+    "skills": "678b33ec82f6beff3f0163c67dcb1a47d84745060b6224ebe55398c8b77b18e6",
+    "agentPresets": "c1198877084d5255d98cae4488267230d3cb92df62a6fcfa4edc733b7bf3daac",
+    "agentInstructions": "aacb62b6b8daddaef7e9b47545374b2c249ec7d6f3d3257bc205f04819696ce8",
+    "self": "2a85ec997dbd9cd7542e1fdb6f2d5db5bdbd3eb0cc116852a4fbf79fe086c5b4"
+  }
+}
