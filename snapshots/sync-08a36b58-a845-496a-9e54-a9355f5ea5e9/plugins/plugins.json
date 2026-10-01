@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "name": "@changfenhuang/dsh-genui",
+      "version": "0.11.3",
+      "spec": "^0.11.3",
+      "isBundle": true,
+      "inBundles": [
+        "@changfenhuang/dsh-genui"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@linxin666/dsh-client-ui-skill-explorer",
+      "version": "0.4.4",
+      "spec": "^0.4.4",
+      "isBundle": true,
+      "inBundles": [
+        "@linxin666/dsh-client-ui-skill-explorer"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.22",
+      "spec": "^0.1.22",
+      "isBundle": true,
+      "inBundles": [
+        "@nanmicoder/dsh-agent-teams"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "version": "0.24.1",
+      "spec": "^0.24.1",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-better-sidebar"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-mnemon",
+      "version": "0.5.20",
+      "spec": "^0.5.20",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-mnemon"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-tool-ast-grep",
+      "version": "0.1.1",
+      "spec": "^0.1.1",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-tool-ast-grep"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dshmarket",
+      "version": "1.66.6",
+      "spec": "^1.66.6",
+      "isBundle": true,
+      "inBundles": [
+        "dshmarket"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-agent-team-profile"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-auto-review",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-auto-review"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-schedule-bundle",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-schedule-bundle"
+      ],
+      "enabled": true
+    }
+  ],
+  "patch": [
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-dragon-heir",
+      "raw": {
+        "id": "ui-skin-dragon-heir",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-miku",
+      "raw": {
+        "id": "ui-skin-miku",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-minecraft",
+      "raw": {
+        "id": "ui-skin-minecraft",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-qq98",
+      "raw": {
+        "id": "ui-skin-qq98",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-ths",
+      "raw": {
+        "id": "ui-skin-ths",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-trading",
+      "raw": {
+        "id": "ui-skin-trading",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-whale-song",
+      "raw": {
+        "id": "ui-skin-whale-song",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-xp",
+      "raw": {
+        "id": "ui-skin-xp",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-harbor",
+      "raw": {
+        "id": "ui-skin-harbor",
+        "disabled": true
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "ui-skin-blue-fantasy",
+      "raw": {
+        "id": "ui-skin-blue-fantasy",
+        "name": "@linxin666/dsh-client-ui-skin-blue-fantasy"
+      }
+    },
+    {
+      "file": "cordis.patch.yml",
+      "lineId": "pm-dsh-settings-organizer",
+      "raw": {
+        "id": "pm-dsh-settings-organizer",
+        "name": "dsh-settings-organizer"
+      }
+    }
+  ],
+  "pnpmWorkspace": "minimumReleaseAge: 0\n\npackages:\n  - .\n\nnodeLinker: hoisted\nautoInstallPeers: false\n"
+}
